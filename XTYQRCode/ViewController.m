@@ -107,6 +107,7 @@
     }
     
     [_session stopRunning];
+    [_xtyScranView stopTimer];
     
     //     }];
 }

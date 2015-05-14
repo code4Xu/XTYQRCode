@@ -10,5 +10,7 @@ XTYScranView
 XTYScanView * _xtyScranView = [[XTYScanView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight)];
     _xtyScranView.backgroundColor = [UIColor clearColor];
     [self.view addSubview:_xtyScranView];
-    
+扫描完成后调用
+ [_xtyScranView stopTimer];
+ 停止扫描条的上下移动
     

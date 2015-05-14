@@ -14,6 +14,7 @@
 		93F65E9C1B04836900D81BF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F65E9B1B04836900D81BF7 /* Images.xcassets */; };
 		93F65E9F1B04836900D81BF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93F65E9D1B04836900D81BF7 /* LaunchScreen.xib */; };
 		93F65EAB1B04836900D81BF7 /* XTYQRCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F65EAA1B04836900D81BF7 /* XTYQRCodeTests.m */; };
+		93F65EB91B0483C800D81BF7 /* XTYScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F65EB81B0483C800D81BF7 /* XTYScanView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		93F65EA41B04836900D81BF7 /* XTYQRCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTYQRCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F65EA91B04836900D81BF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93F65EAA1B04836900D81BF7 /* XTYQRCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTYQRCodeTests.m; sourceTree = "<group>"; };
+		93F65EB71B0483C800D81BF7 /* XTYScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XTYScanView.h; path = XTYScanView/XTYScanView.h; sourceTree = "<group>"; };
+		93F65EB81B0483C800D81BF7 /* XTYScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XTYScanView.m; path = XTYScanView/XTYScanView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		93F65E8D1B04836900D81BF7 /* XTYQRCode */ = {
 			isa = PBXGroup;
 			children = (
+				93F65EB61B0483BB00D81BF7 /* XTYScanView */,
 				93F65E921B04836900D81BF7 /* AppDelegate.h */,
 				93F65E931B04836900D81BF7 /* AppDelegate.m */,
 				93F65E951B04836900D81BF7 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				93F65EA91B04836900D81BF7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		93F65EB61B0483BB00D81BF7 /* XTYScanView */ = {
+			isa = PBXGroup;
+			children = (
+				93F65EB71B0483C800D81BF7 /* XTYScanView.h */,
+				93F65EB81B0483C800D81BF7 /* XTYScanView.m */,
+			);
+			name = XTYScanView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93F65E971B04836900D81BF7 /* ViewController.m in Sources */,
+				93F65EB91B0483C800D81BF7 /* XTYScanView.m in Sources */,
 				93F65E941B04836900D81BF7 /* AppDelegate.m in Sources */,
 				93F65E911B04836900D81BF7 /* main.m in Sources */,
 			);
